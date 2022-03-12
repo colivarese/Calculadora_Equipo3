@@ -32,12 +32,6 @@ def resta(a,b):
 
 
 
-
-
-
-
-
-
 def division(a,b):
   numerador = convertir_fracciones(a)
   denominador = convertir_fracciones(b)
