@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 def resta(a,b):
     """
     Calcula la resta entre dos números
@@ -15,7 +15,6 @@ def resta(a,b):
     minuendo = convertir_fracciones(a)
     sustraendo = convertir_fracciones(b)
     return minuendo - sustraendo
-=======
 
 
 
@@ -46,4 +45,23 @@ def division(a,b):
     raise Exception("Error: el denominador no puede ser 0")
   else:
     return numerador / denominador
->>>>>>> div
+
+def multiplicacion(a,b):
+  """
+  Función para multiplicar dos números
+
+  Params:
+    a: Primer número a multiplicar
+    b: Segundo número a multiplicar
+
+
+  Returns:
+    El producto de a y b.
+
+  >>>multiplicacion(5,"6/25")
+    1.2
+  """
+
+  mult_a = convertir_fracciones(a)
+  mult_b = convertir_fracciones(b)
+  return mult_a * mult_b
