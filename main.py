@@ -93,3 +93,5 @@ def convertir_fracciones(entrada):
     print("Error de formato de numero")
     
   return numero
+
+
